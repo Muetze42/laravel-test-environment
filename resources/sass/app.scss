@@ -1,0 +1,16 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+$link-color: $blue-100;
+$pagination-active-bg: $gray-700;
+$pagination-active-border-color: $gray-300;
+
+$custom-colors: (
+    "primary": $purple-500,
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "~bootstrap";
+
+@import "~datatables.net-bs4";
